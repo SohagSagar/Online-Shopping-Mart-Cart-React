@@ -1,0 +1,30 @@
+.cardbody{
+    width: 280px;
+    border-radius: 5px;
+    margin-top: 30px;
+    margin-left: 10px;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    margin-left: 20px;
+
+}
+.card-image{
+    width: 250px;
+    height:220px;
+    margin-left: 12px;
+    border-radius: 5px;
+}
+.product-desc p{
+    font-size: 1em;
+    font-weight: 600;
+    line-height: 0.6;
+    text-align: center;
+    color: rgb(87, 81, 81);
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-weight: 600;
+}

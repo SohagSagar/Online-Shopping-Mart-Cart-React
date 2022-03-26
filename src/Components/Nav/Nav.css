@@ -1,0 +1,12 @@
+.nav-bar{
+    font-size: 2em;
+    background-color: grey;
+    height: 70px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    position: sticky;
+    top: 0;
+}

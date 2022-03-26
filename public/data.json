@@ -1,0 +1,97 @@
+[
+    {
+      "id": "62382214f4e40e2b2e325335",
+      "price": 287,
+      "name": "Laptop-1",
+      "image":"images/laptop-1.png"
+    },
+    {
+      "id": "62382214c74914faccce5b9e",
+      "price": 327,
+      "name": "Laptop-2",
+      "image":"images/laptop-2.png"
+    },
+    {
+      "id": "623822147c0917d6b6ab0f04",
+      "price": 515,
+      "name": "Laptop-3",
+      "image":"images/laptop-3.png"
+    },
+    {
+      "id": "62382214ac51b7c3103ab79b",
+      "price": 222,
+      "name": "Laptop-4",
+      "image":"images/laptop-4.png"
+    },
+    {
+      "id": "62382214b5a330724000562e",
+      "price": 215,
+      "name": "Laptop-5",
+      "image":"images/laptop-5.png"
+    },
+
+
+    {
+      "id": "6238221468056672ee6dd174",
+      "price": 154,
+      "name": "Tablet-1",
+      "image":"images/tablet-1.png"
+    },
+    {
+      "id": "62382214b986cece643c70d5",
+      "price": 180,
+      "name": "Tablet-2",
+      "image":"images/tablet-2.png"
+    },
+    {
+      "id": "62382214b986cece643c70fd5",
+      "price": 150,
+      "name": "Tablet-3",
+      "image":"images/tablet-3.png"
+    },
+    {
+      "id": "62382214b986cedce643c70fd5",
+      "price": 240,
+      "name": "Tablet-4",
+      "image":"images/tablet-4.png"
+    },
+    {
+      "id": "62382214sb986cece643c70fd5",
+      "price": 100,
+      "name": "Tablet-5",
+      "image":"images/tablet-5.png"
+    },
+
+
+    {
+      "id": "62382214b986cece643c70ffd5",
+      "price": 204,
+      "name": "Watch-1",
+      "image":"images/watch-1.png"
+    },
+    {
+      "id": "62382214b98dd6cece643c70fd5",
+      "price": 185,
+      "name": "Watch-2",
+      "image":"images/watch-2.png"
+    },
+    {
+      "id": "62ss382214b98dd6cece643c70fd5",
+      "price": 140,
+      "name": "Watch-3",
+      "image":"images/watch-3.png"
+    },
+    {
+      "id": "642382s214b98dd6cece643c70fd5",
+      "price": 103,
+      "name": "Watch-4",
+      "image":"images/watch-4.png"
+    },
+    {
+      "id": "62382214b98dd6csecsse643c70fd5",
+      "price": 222,
+      "name": "Watch-5",
+      "image":"images/watch-5.png"
+    }
+
+  ]
