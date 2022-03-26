@@ -27,10 +27,13 @@ const AllProducts = () => {
     }
     // console.log(cart);
     const randomChoiceBtn=()=>{
-        const randomItems = cart[Math.floor(Math.random()*cart.length)];
-        const newRandomItems=[randomItems];
-        // setNewRandomItems(newRandomItems);
-        setCart(newRandomItems)
+        if(cart.length>0){
+            const randomItems = cart[Math.floor(Math.random()*cart.length)];
+            const newRandomItems=[randomItems];
+            // setNewRandomItems(newRandomItems);
+            setCart(newRandomItems)
+        }
+        
     }
     const removeCartItems=()=>{
         setCart([])
