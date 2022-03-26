@@ -2,7 +2,6 @@ import React from 'react';
 import './RandomChoiceProducts.css';
 const RandomChoiceProducts = ({randomItem}) => {
     const {image, name, price}=randomItem;
-    console.log(randomItem);
     return (
         
          <div>
