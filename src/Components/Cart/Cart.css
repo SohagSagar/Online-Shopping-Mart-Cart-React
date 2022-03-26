@@ -4,14 +4,14 @@
 }
 .item-count{
     padding: 3px;
-    font-size: 1.2em;
+    font-size: 1em;
     color:grey;
     
 }
 .cart-btn button{
-    margin-top: 50px;
+    
     margin-bottom: 10px;
     /* position: absolute; */
-    bottom: 0;
+    bottom: 5px;
 }
 

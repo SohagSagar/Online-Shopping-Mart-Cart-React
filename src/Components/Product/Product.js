@@ -1,4 +1,5 @@
 import React from 'react';
+import { BsCart4} from 'react-icons/bs';
 import './Product.css'
 
 
@@ -12,7 +13,7 @@ const Product = ({product,handleCart}) => {
                 <hr />
                 <p>Name: {name}</p>
                 <p>Price: ${price}</p>
-                <button onClick={()=>handleCart(product)} className='btn btn-outline-secondary '>Add To Cart<i className="bi bi-cart-check"></i></button>
+                <button onClick={()=>handleCart(product)} className='btn btn-outline-secondary '>Add To Cart <BsCart4 id='cart-icon' /></button>
             </div>
         </div>
     );
