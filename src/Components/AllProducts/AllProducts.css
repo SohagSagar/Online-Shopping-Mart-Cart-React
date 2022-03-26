@@ -1,8 +1,8 @@
 .body-container{
-    /* display: grid;
+    display: grid;
     grid-template-columns: 3fr 1fr;
-    justify-content: center; */
-    display: flex;
+    justify-content: center;
+    /* display: flex; */
     
 }
 
