@@ -2,6 +2,16 @@
 ## Project Live link: 
 (https://online-shopping-mart-react.netlify.app/)
 
+## Project Description:
+Project Name: Online Shopping Mart.
+Project Material: React with Bootstrap.
+
+Description:
+This project is a simple react based online shopping website where initially 15 electronic items are displayed by calling local api. Each of the products have a ‘Add to cart’ button and use can add their product in the cart section by clicking it. User can instantly have observed the added item in the cart area. Initially users are allowed to take 5 unique products in the cart. After adding products, there are two option for user: A button that is used for randomly pick one product form cart, and another button to empty the cart section. User can also remove individual cart item by clicking delete icon positioned right side of each item. 
+
+Data: 
+Data is prepared in json format and load the data by calling api. 
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
