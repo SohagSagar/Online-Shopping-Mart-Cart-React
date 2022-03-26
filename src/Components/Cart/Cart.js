@@ -4,7 +4,7 @@ import './Cart.css';
 import DisplayCartItems from '../DisplayCardItems/DisplayCartItems';
 import RandomChoiceProducts from '../RandomChoiceProducts/RandomChoiceProducts';
 
-const Cart = ({cart,removeCartItems,count}) => {
+const Cart = ({cart, removeCartItems,count}) => {
     let addedIteams=cart;
     const [newRandomItems,setNewRandomItems]=useState([]);
     
@@ -13,11 +13,7 @@ const Cart = ({cart,removeCartItems,count}) => {
         const newRandomItems=[randomItems];
         setNewRandomItems(newRandomItems);
     }
-    console.log(count);
     
-    // if(count===1){
-    //     setNewRandomItems([]);
-    // }
     
     return (
         <div>
