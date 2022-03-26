@@ -6,14 +6,16 @@ import RandomChoiceProducts from '../RandomChoiceProducts/RandomChoiceProducts';
 
 const Cart = ({cart}) => {
     let addedIteams=cart;
-    const [randomItems,setRandomItems]=useState([]);
+    const [newRandomItems,setNewRandomItems]=useState([]);
+    
 
     const randomChoiceBtn=()=>{
+
         const randomItems = addedIteams[Math.floor(Math.random()*addedIteams.length)];
-        
-        setRandomItems(randomItems);
+        const newRandomItems=[randomItems];
+        setNewRandomItems(newRandomItems);
     }
-    console.log(randomItems);
+
     return (
         <div>
             <div className="cart-heading">
@@ -30,13 +32,15 @@ const Cart = ({cart}) => {
                 <div>
                     
                     {
-                        
-                        randomItems.map(randomItem=><RandomChoiceProducts key={randomItem.id}></RandomChoiceProducts>)
+                        newRandomItems.map(randomItem=><RandomChoiceProducts key={randomItem.id} randomItem={randomItem}></RandomChoiceProducts>)
+
+                        // <RandomChoiceProducts></RandomChoiceProducts>
+
                     }
                 </div>
 
                 <div className="cart-btn">
-                    <button onClick={randomChoiceBtn} className='btn btn-outline-secondary'>Choice One For Me !!</button>
+                    <button onClick={randomChoiceBtn} className='btn btn-outline-secondary'>Choose One For Me !!</button>
                     <button className='btn btn-outline-danger'>Empty Cart</button>
                 </div>
         </div>

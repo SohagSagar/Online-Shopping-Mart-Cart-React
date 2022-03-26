@@ -25,3 +25,8 @@
     padding:12px;
     
 }
+.chose-item-heading{
+    text-align: center;
+    font-weight: 600;
+    line-height: 0.1;
+}
