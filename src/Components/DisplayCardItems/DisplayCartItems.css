@@ -1,0 +1,27 @@
+.iteam-details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:5px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+
+
+}
+.iteam-details img{
+    width: 50px;
+    border-radius: 5px;
+}
+.iteam-details li{
+    display: inline;
+    font-weight: 600;
+   
+    
+}
+#delete-item{
+    width: 15px;
+    height: 15px;
+    padding:12px;
+    
+}

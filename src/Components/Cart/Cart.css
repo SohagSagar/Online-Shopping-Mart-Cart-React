@@ -1,0 +1,17 @@
+.cart-heading{
+    text-align: center;
+    font-weight: 600;
+}
+.item-count{
+    padding: 3px;
+    font-size: 1.2em;
+    color:grey;
+    
+}
+.cart-btn button{
+    margin-top: 50px;
+    margin-bottom: 10px;
+    /* position: absolute; */
+    bottom: 0;
+}
+
