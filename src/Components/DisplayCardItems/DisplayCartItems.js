@@ -2,7 +2,7 @@ import React from 'react';
 import './DisplayCartItems.css'
 
 
-const DisplayCartItems = ({addedIteams}) => {
+const DisplayCartItems = ({addedIteams,removeSingleItemFromCart}) => {
     const {image, name, price}=addedIteams;
     return (
         <div>
@@ -10,7 +10,7 @@ const DisplayCartItems = ({addedIteams}) => {
                 <img src={image} alt="" />
                 <li>{name}</li>
                 <li>Price: ${price}</li>
-                <button id='delete-item' className='btn btn-danger'>X</button>
+                <button onClick={()=>removeSingleItemFromCart(addedIteams)} id='delete-item' className='btn btn-danger'>X</button>
             </div>
         </div>
     );
