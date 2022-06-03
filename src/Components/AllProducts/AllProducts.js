@@ -31,7 +31,7 @@ const AllProducts = () => {
 
 
     }
-    // console.log(cart);
+    
     const randomChoiceBtn = () => {
         if (cart.length > 0) {
             const randomItems = cart[Math.floor(Math.random() * cart.length)];
